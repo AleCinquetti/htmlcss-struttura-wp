@@ -1,0 +1,119 @@
+/* indicazioni generali */
+
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+}
+
+/* Header: titolo & navbar */
+
+header {
+  height: 150px;
+  margin-top: 25px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.title {
+  height: 70%;
+  border: 3px solid black;
+}
+
+.navbar {
+  height: 30%;
+  border: 3px solid black;
+}
+
+/* main con sezione centrare e i 2 aside */
+
+main {
+  margin: 25px auto;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Aside di destra */
+.info {
+  width: 25%;
+  height: 800px;
+  float: left;
+}
+
+.pages {
+  height: 500px;
+  border: 3px solid black;
+}
+
+.archives {
+  height: 100px;
+  border: 3px solid black;
+  margin: 15px 0;
+}
+
+.meta {
+  height: 200px;
+  border: 3px solid black;
+}
+
+/* sezione centrale */
+.articles {
+  width: 45%;
+  height: 1200px;
+  float: left;
+  border: 3px solid black;
+  margin: 0 15px;
+}
+
+/* aside di destra */
+.search-tag {
+  width: 27.3%;
+  height: 360px;
+  float: left;
+}
+
+.search {
+  height: 120px;
+  border: 3px solid black;
+}
+
+.tag {
+  height: 240px;
+  border: 3px solid black;
+  margin-top: 15px;
+}
+
+/* footer diviso in link utili e copyright */
+
+footer {
+  height: 350px;
+}
+
+.links {
+  height: 250px;
+  position: relative;
+  border: 3px solid black;
+}
+
+.posts, .comments, .categories, .widget {
+  height: 170px;
+  width: 15%;
+  border: 3px solid black;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  margin: 0 55px;
+}
+
+.social {
+  height: 100px;
+  border: 3px solid black;
+}
